@@ -198,5 +198,5 @@ task copyDownloadableDepsToLibs(type: Copy) {
     into 'libs'
 }
 
-apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply from: file("../native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
 //apply from: "http://172.21.129.141/PDAStraightWebService/buildPlugin.gradle";applyNativeModulesAppBuildGradle(project)
