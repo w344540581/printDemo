@@ -1,3 +1,4 @@
-import {NativeModules} from 'react-native';
+import PrintDemo from './Demo';
 
-export default NativeModules.PrintFilesName;
+export default PrintDemo;
+

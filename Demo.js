@@ -5,7 +5,7 @@ import PrintModal from './PrintExample'
 
 
 
-class Demo extends React.Component {
+class PrintDemo extends React.Component {
   constructor(props) {
    super(props)
   }
@@ -77,5 +77,5 @@ class Demo extends React.Component {
     )
   }
 }
-export default Demo
+export default PrintDemo
 
